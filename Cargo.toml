@@ -1,0 +1,16 @@
+[package]
+name = "pipe"
+version = "0.1.0"
+authors = ["Bart Massey <bart.massey@gmail.com"]
+description = "Make Unix pipes."
+repository = "http://github.com/BartMassey/pipe-rs"
+readme = "README.md"
+keywords = ["pipe"]
+license-file = "COPYING"
+
+[lib]
+name = "pipe"
+path = "pipe.rs"
+
+[dependencies]
+libc = "0.2"

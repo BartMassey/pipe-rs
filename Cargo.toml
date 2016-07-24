@@ -1,5 +1,4 @@
 [package]
-publish = false
 name = "pipefile"
 version = "0.1.0"
 authors = ["Bart Massey <bart.massey@gmail.com"]

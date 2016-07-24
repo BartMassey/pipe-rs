@@ -1,9 +1,9 @@
 [package]
 name = "pipefile"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Bart Massey <bart.massey@gmail.com"]
 description = "Make Unix pipes."
-repository = "http://github.com/BartMassey/pipe-rs"
+repository = "http://github.com/BartMassey/pipefile"
 readme = "README.md"
 keywords = ["pipe", "file"]
 license-file = "COPYING"

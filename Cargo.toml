@@ -1,17 +1,21 @@
 [package]
 publish = false
-name = "pipe"
+name = "pipefile"
 version = "0.1.0"
 authors = ["Bart Massey <bart.massey@gmail.com"]
 description = "Make Unix pipes."
 repository = "http://github.com/BartMassey/pipe-rs"
 readme = "README.md"
-keywords = ["pipe"]
+keywords = ["pipe", "file"]
 license-file = "COPYING"
 
 [lib]
-name = "pipe"
-path = "pipe.rs"
+name = "pipefile"
+path = "pipefile.rs"
 
 [dependencies]
 libc = "0.2"
+clippy = {version = "*", optional = true}
+
+[features]
+default = []
